@@ -4,6 +4,6 @@ class Shoe
   BRANDS = []
   def initialize(title)
     @title = title
-    BRANDS << title
+  BRANDS << title if !BRANDS.include?(title) 
   end
 end
