@@ -1,7 +1,6 @@
 # Make your shoe class here!
 class Shoe
-  a
-  ttr_reader :brand
+  attr_reader :brand
   #BRANDS = []
   def initialize(brand)
     @brand = brand
